@@ -73,7 +73,7 @@ To view installation and usage instructions specific to each branch build, be su
 var anyOwnBy = require( '@stdlib/object-any-own-by' );
 ```
 
-#### anyBy( collection, predicate\[, thisArg ] )
+#### anyOwnBy( object, predicate\[, thisArg ] )
 
 Tests whether at least one own property of a provided [`object`][mdn-object] passes a test implemented by a `predicate` function.
 
