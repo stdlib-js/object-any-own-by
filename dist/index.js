@@ -1,5 +1,5 @@
-"use strict";var f=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var i=f(function(q,a){
-var o=require('@stdlib/assert-is-object/dist'),v=require('@stdlib/assert-is-function/dist'),l=require('@stdlib/assert-has-own-property/dist'),u=require('@stdlib/error-tools-fmtprodmsg/dist');function m(r,e,s){var t,n;if(!o(r))throw new TypeError(u('2aT3L',r));if(!v(e))throw new TypeError(u('2aT2H',e));for(n in r)if(l(r,n)&&(t=e.call(s,r[n],n,r),t))return!0;return!1}a.exports=m
-});var c=i();module.exports=c;
+"use strict";var f=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var s=f(function(q,i){
+var o=require('@stdlib/assert-is-object/dist'),v=require('@stdlib/assert-is-function/dist'),l=require('@stdlib/assert-has-own-property/dist'),a=require('@stdlib/error-tools-fmtprodmsg/dist');function m(e,r,t){var u,n;if(!o(e))throw new TypeError(a('2aT3L',e));if(!v(r))throw new TypeError(a('2aT2H',r));for(n in e)if(l(e,n)&&(u=r.call(t,e[n],n,e),u))return!0;return!1}i.exports=m
+});var c=s();module.exports=c;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
